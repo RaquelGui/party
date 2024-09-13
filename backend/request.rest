@@ -1,0 +1,31 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price":1400,
+    "image": "https://unsplash.com/pt-br/fotografias/um-grupo-de-pessoas-sentadas-ao-redor-de-uma-mesa-segurando-espumantes-nGliBjjrUDY"
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+
+###
+GET http://localhost:3000/api/services/66e489b88393e9c9e7c43237
+
+###
+DELETE http://localhost:3000/api/services/66e489b88393e9c9e7c43237
+
+###
+PUT http://localhost:3000/api/services/66e488af8393e9c9e7c43232
+Content-Type: application/json
+
+{
+    "name": "teste atualização 3",
+    "description": "Alguma descrição 3",
+    "price":2600,
+    "image": "https://unsplash.com/pt-br/fotografias/um-grupo-de-pessoas-sentadas-ao-redor-de-uma-mesa-segurando-espumantes-nGliBjjrUDY"
+}
