@@ -29,3 +29,16 @@ Content-Type: application/json
     "price":2600,
     "image": "https://unsplash.com/pt-br/fotografias/um-grupo-de-pessoas-sentadas-ao-redor-de-uma-mesa-segurando-espumantes-nGliBjjrUDY"
 }
+
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Meu evento",
+    "author": "Raquel",
+    "description": "Uma festa de aniversário",
+    "budget": 9000,
+    "image": "https://unsplash.com/pt-br/fotografias/selective-focus-photography-of-assorted-color-balloons-Hli3R6LKibo"
+}
